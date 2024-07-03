@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="72.497" tests="4" failures="0" errors="0">
+   <testsuite name="Login" tests="4" failures="0" errors="0" time="72.497" skipped="0" timestamp="03-07-2024T21:55:03" hostname="ASUS - Hafizh" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018514921.png, C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018516603.png, C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018523547.png, C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018535378.png, C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018536741.png, C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018541932.png, C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018552937.png, C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018554288.png, C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018559800.png, C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018570665.png, C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018572017.png, C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018575445.png"/>
+         <property name="hostName" value="ASUS - Hafizh"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="172.20.10.7"/>
+         <property name="sessionId" value="c18e8978343829245f0bff32b18eccd5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="20.931" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[03-07-2024T21:55:03 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+03-07-2024T21:55:03 - [TEST_STEP][PASSED] - openBrowser(Link): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+03-07-2024T21:55:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-07-2024T21:55:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-07-2024T21:55:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+03-07-2024T21:55:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-07-2024T21:55:12 - [MESSAGE][PASSED] - Current window maximized
+
+03-07-2024T21:55:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-07-2024T21:55:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-07-2024T21:55:14 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+03-07-2024T21:55:15 - [MESSAGE][INFO] - 0 hidden object(s)
+
+03-07-2024T21:55:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018514921.png]]
+
+03-07-2024T21:55:15 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Username_Form"), Username): Text 'Admin' is set on object 'Object Repository/Login/Username_Form'
+
+03-07-2024T21:55:16 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Login/Username_Form'
+
+03-07-2024T21:55:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password_Form"), Password): Text ****** has been set on object 'Object Repository/Login/Password_Form'
+
+03-07-2024T21:55:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password_Form'
+
+03-07-2024T21:55:16 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+03-07-2024T21:55:16 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+03-07-2024T21:55:16 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+03-07-2024T21:55:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+03-07-2024T21:55:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018516603.png]]
+
+03-07-2024T21:55:17 - [TEST_STEP][PASSED] - click(findTestObject("Login/Button_Login")): Object: 'Object Repository/Login/Button_Login' is clicked on
+
+03-07-2024T21:55:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Button_Login' is clicked on
+
+03-07-2024T21:55:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/Verify_Text"), Verify): Actual text and expected text of test object 'Object Repository/Login/Verify_Text' are matched.
+
+03-07-2024T21:55:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Verify_Text' are matched.
+
+03-07-2024T21:55:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-07-2024T21:55:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-07-2024T21:55:23 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+03-07-2024T21:55:24 - [MESSAGE][INFO] - 0 hidden object(s)
+
+03-07-2024T21:55:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018523547.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WrongUsername" time="17.894" classname="Test Cases/WrongUsername" status="PASSED">
+         <system-out><![CDATA[03-07-2024T21:55:24 - [TEST_CASE][PASSED] - Test Cases/WrongUsername: Test Cases/WrongUsername
+
+03-07-2024T21:55:24 - [TEST_STEP][PASSED] - openBrowser(Link): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+03-07-2024T21:55:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+03-07-2024T21:55:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-07-2024T21:55:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-07-2024T21:55:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+03-07-2024T21:55:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-07-2024T21:55:33 - [MESSAGE][PASSED] - Current window maximized
+
+03-07-2024T21:55:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-07-2024T21:55:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-07-2024T21:55:35 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+03-07-2024T21:55:35 - [MESSAGE][INFO] - 0 hidden object(s)
+
+03-07-2024T21:55:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018535378.png]]
+
+03-07-2024T21:55:35 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Username_Form"), Username): Text 'wrongUser' is set on object 'Object Repository/Login/Username_Form'
+
+03-07-2024T21:55:36 - [MESSAGE][PASSED] - Text 'wrongUser' is set on object 'Object Repository/Login/Username_Form'
+
+03-07-2024T21:55:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password_Form"), Password): Text ****** has been set on object 'Object Repository/Login/Password_Form'
+
+03-07-2024T21:55:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password_Form'
+
+03-07-2024T21:55:36 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+03-07-2024T21:55:36 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+03-07-2024T21:55:36 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+03-07-2024T21:55:37 - [MESSAGE][INFO] - 0 hidden object(s)
+
+03-07-2024T21:55:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018536741.png]]
+
+03-07-2024T21:55:37 - [TEST_STEP][PASSED] - click(findTestObject("Login/Button_Login")): Object: 'Object Repository/Login/Button_Login' is clicked on
+
+03-07-2024T21:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Button_Login' is clicked on
+
+03-07-2024T21:55:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/VerifyError"), Verify): Actual text and expected text of test object 'Object Repository/Login/VerifyError' are matched.
+
+03-07-2024T21:55:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/VerifyError' are matched.
+
+03-07-2024T21:55:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-07-2024T21:55:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-07-2024T21:55:41 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+03-07-2024T21:55:42 - [MESSAGE][INFO] - 0 hidden object(s)
+
+03-07-2024T21:55:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018541932.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WrongPassword" time="17.869" classname="Test Cases/WrongPassword" status="PASSED">
+         <system-out><![CDATA[03-07-2024T21:55:42 - [TEST_CASE][PASSED] - Test Cases/WrongPassword: Test Cases/WrongPassword
+
+03-07-2024T21:55:42 - [TEST_STEP][PASSED] - openBrowser(Link): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+03-07-2024T21:55:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+03-07-2024T21:55:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-07-2024T21:55:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-07-2024T21:55:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+03-07-2024T21:55:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-07-2024T21:55:50 - [MESSAGE][PASSED] - Current window maximized
+
+03-07-2024T21:55:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-07-2024T21:55:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-07-2024T21:55:52 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+03-07-2024T21:55:53 - [MESSAGE][INFO] - 0 hidden object(s)
+
+03-07-2024T21:55:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018552937.png]]
+
+03-07-2024T21:55:53 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Username_Form"), Username): Text 'Admin' is set on object 'Object Repository/Login/Username_Form'
+
+03-07-2024T21:55:53 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Login/Username_Form'
+
+03-07-2024T21:55:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password_Form"), Password): Text ****** has been set on object 'Object Repository/Login/Password_Form'
+
+03-07-2024T21:55:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password_Form'
+
+03-07-2024T21:55:54 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+03-07-2024T21:55:54 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+03-07-2024T21:55:54 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+03-07-2024T21:55:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+03-07-2024T21:55:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018554288.png]]
+
+03-07-2024T21:55:54 - [TEST_STEP][PASSED] - click(findTestObject("Login/Button_Login")): Object: 'Object Repository/Login/Button_Login' is clicked on
+
+03-07-2024T21:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Button_Login' is clicked on
+
+03-07-2024T21:55:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/VerifyError"), Verify): Actual text and expected text of test object 'Object Repository/Login/VerifyError' are matched.
+
+03-07-2024T21:55:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/VerifyError' are matched.
+
+03-07-2024T21:55:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-07-2024T21:55:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-07-2024T21:55:59 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+03-07-2024T21:56:00 - [MESSAGE][INFO] - 0 hidden object(s)
+
+03-07-2024T21:56:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018559800.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FillBlank" time="15.648" classname="Test Cases/FillBlank" status="PASSED">
+         <system-out><![CDATA[03-07-2024T21:56:00 - [TEST_CASE][PASSED] - Test Cases/FillBlank: Test Cases/FillBlank
+
+03-07-2024T21:56:00 - [TEST_STEP][PASSED] - openBrowser(Link): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+03-07-2024T21:56:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+03-07-2024T21:56:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-07-2024T21:56:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-07-2024T21:56:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+03-07-2024T21:56:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-07-2024T21:56:08 - [MESSAGE][PASSED] - Current window maximized
+
+03-07-2024T21:56:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-07-2024T21:56:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-07-2024T21:56:10 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+03-07-2024T21:56:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+03-07-2024T21:56:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018570665.png]]
+
+03-07-2024T21:56:11 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Username_Form"), Username): Text '' is set on object 'Object Repository/Login/Username_Form'
+
+03-07-2024T21:56:11 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login/Username_Form'
+
+03-07-2024T21:56:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Password_Form"), Password): Text ****** has been set on object 'Object Repository/Login/Password_Form'
+
+03-07-2024T21:56:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password_Form'
+
+03-07-2024T21:56:12 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+03-07-2024T21:56:12 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+03-07-2024T21:56:12 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+03-07-2024T21:56:12 - [MESSAGE][INFO] - 0 hidden object(s)
+
+03-07-2024T21:56:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018572017.png]]
+
+03-07-2024T21:56:12 - [TEST_STEP][PASSED] - click(findTestObject("Login/Button_Login")): Object: 'Object Repository/Login/Button_Login' is clicked on
+
+03-07-2024T21:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Button_Login' is clicked on
+
+03-07-2024T21:56:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/VerifyRequiredUsername"), Verify): Actual text and expected text of test object 'Object Repository/Login/VerifyRequiredUsername' are matched.
+
+03-07-2024T21:56:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/VerifyRequiredUsername' are matched.
+
+03-07-2024T21:56:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/VerifyRequiredPassword"), Verify): Actual text and expected text of test object 'Object Repository/Login/VerifyRequiredPassword' are matched.
+
+03-07-2024T21:56:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/VerifyRequiredPassword' are matched.
+
+03-07-2024T21:56:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-07-2024T21:56:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-07-2024T21:56:15 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+03-07-2024T21:56:15 - [MESSAGE][INFO] - 0 hidden object(s)
+
+03-07-2024T21:56:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS\\Katalon Studio\\SDD\\Reports\\20240703_215459\\Login\\20240703_215500\\1720018575445.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-07-2024T21:55:03 - [TEST_SUITE][PASSED] - Login: Test Cases/FillBlank]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,59 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 126.0.0.0,,,03-07-2024 21:55:03,03-07-2024 21:56:15,1m - 12.497s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 126.0.0.0,,,03-07-2024 21:55:03,03-07-2024 21:55:24,20.931s,PASSED
+openBrowser(Link),Chrome 126.0.0.0,,,03-07-2024 21:55:03,03-07-2024 21:55:12,8.930s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,03-07-2024 21:55:12,03-07-2024 21:55:12,0.052s,PASSED
+delay(2),Chrome 126.0.0.0,,,03-07-2024 21:55:12,03-07-2024 21:55:14,2.054s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,03-07-2024 21:55:14,03-07-2024 21:55:15,0.586s,PASSED
+"setText(findTestObject(""Login/Username_Form""), Username)",Chrome 126.0.0.0,,,03-07-2024 21:55:15,03-07-2024 21:55:16,0.722s,PASSED
+"setEncryptedText(findTestObject(""Login/Password_Form""), Password)",Chrome 126.0.0.0,,,03-07-2024 21:55:16,03-07-2024 21:55:16,0.386s,PASSED
+delay(0),Chrome 126.0.0.0,,,03-07-2024 21:55:16,03-07-2024 21:55:16,0.004s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,03-07-2024 21:55:16,03-07-2024 21:55:17,0.404s,PASSED
+"click(findTestObject(""Login/Button_Login""))",Chrome 126.0.0.0,,,03-07-2024 21:55:17,03-07-2024 21:55:19,2.179s,PASSED
+"verifyElementText(findTestObject(""Login/Verify_Text""), Verify)",Chrome 126.0.0.0,,,03-07-2024 21:55:19,03-07-2024 21:55:21,2.363s,PASSED
+delay(2),Chrome 126.0.0.0,,,03-07-2024 21:55:21,03-07-2024 21:55:23,2.003s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,03-07-2024 21:55:23,03-07-2024 21:55:24,0.931s,PASSED
+,,,,,,,
+Test Cases/WrongUsername,Chrome 126.0.0.0,,,03-07-2024 21:55:24,03-07-2024 21:55:42,17.894s,PASSED
+openBrowser(Link),Chrome 126.0.0.0,,,03-07-2024 21:55:24,03-07-2024 21:55:33,8.693s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,03-07-2024 21:55:33,03-07-2024 21:55:33,0.040s,PASSED
+delay(2),Chrome 126.0.0.0,,,03-07-2024 21:55:33,03-07-2024 21:55:35,2.013s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,03-07-2024 21:55:35,03-07-2024 21:55:35,0.379s,PASSED
+"setText(findTestObject(""Login/Username_Form""), Username)",Chrome 126.0.0.0,,,03-07-2024 21:55:35,03-07-2024 21:55:36,0.645s,PASSED
+"setEncryptedText(findTestObject(""Login/Password_Form""), Password)",Chrome 126.0.0.0,,,03-07-2024 21:55:36,03-07-2024 21:55:36,0.335s,PASSED
+delay(0),Chrome 126.0.0.0,,,03-07-2024 21:55:36,03-07-2024 21:55:36,0.002s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,03-07-2024 21:55:36,03-07-2024 21:55:37,0.356s,PASSED
+"click(findTestObject(""Login/Button_Login""))",Chrome 126.0.0.0,,,03-07-2024 21:55:37,03-07-2024 21:55:38,1.860s,PASSED
+"verifyElementText(findTestObject(""Login/VerifyError""), Verify)",Chrome 126.0.0.0,,,03-07-2024 21:55:38,03-07-2024 21:55:39,0.966s,PASSED
+delay(2),Chrome 126.0.0.0,,,03-07-2024 21:55:39,03-07-2024 21:55:41,2.006s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,03-07-2024 21:55:41,03-07-2024 21:55:42,0.470s,PASSED
+,,,,,,,
+Test Cases/WrongPassword,Chrome 126.0.0.0,,,03-07-2024 21:55:42,03-07-2024 21:56:00,17.869s,PASSED
+openBrowser(Link),Chrome 126.0.0.0,,,03-07-2024 21:55:42,03-07-2024 21:55:50,8.480s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,03-07-2024 21:55:50,03-07-2024 21:55:50,0.028s,PASSED
+delay(2),Chrome 126.0.0.0,,,03-07-2024 21:55:50,03-07-2024 21:55:52,2.003s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,03-07-2024 21:55:52,03-07-2024 21:55:53,0.383s,PASSED
+"setText(findTestObject(""Login/Username_Form""), Username)",Chrome 126.0.0.0,,,03-07-2024 21:55:53,03-07-2024 21:55:53,0.633s,PASSED
+"setEncryptedText(findTestObject(""Login/Password_Form""), Password)",Chrome 126.0.0.0,,,03-07-2024 21:55:53,03-07-2024 21:55:54,0.333s,PASSED
+delay(0),Chrome 126.0.0.0,,,03-07-2024 21:55:54,03-07-2024 21:55:54,0.002s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,03-07-2024 21:55:54,03-07-2024 21:55:54,0.355s,PASSED
+"click(findTestObject(""Login/Button_Login""))",Chrome 126.0.0.0,,,03-07-2024 21:55:54,03-07-2024 21:55:54,0.303s,PASSED
+"verifyElementText(findTestObject(""Login/VerifyError""), Verify)",Chrome 126.0.0.0,,,03-07-2024 21:55:54,03-07-2024 21:55:57,2.835s,PASSED
+delay(2),Chrome 126.0.0.0,,,03-07-2024 21:55:57,03-07-2024 21:55:59,2.017s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,03-07-2024 21:55:59,03-07-2024 21:56:00,0.475s,PASSED
+,,,,,,,
+Test Cases/FillBlank,Chrome 126.0.0.0,,,03-07-2024 21:56:00,03-07-2024 21:56:15,15.648s,PASSED
+openBrowser(Link),Chrome 126.0.0.0,,,03-07-2024 21:56:00,03-07-2024 21:56:08,8.245s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,03-07-2024 21:56:08,03-07-2024 21:56:08,0.036s,PASSED
+delay(2),Chrome 126.0.0.0,,,03-07-2024 21:56:08,03-07-2024 21:56:10,2.013s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,03-07-2024 21:56:10,03-07-2024 21:56:11,0.369s,PASSED
+"setText(findTestObject(""Login/Username_Form""), Username)",Chrome 126.0.0.0,,,03-07-2024 21:56:11,03-07-2024 21:56:11,0.624s,PASSED
+"setEncryptedText(findTestObject(""Login/Password_Form""), Password)",Chrome 126.0.0.0,,,03-07-2024 21:56:11,03-07-2024 21:56:12,0.354s,PASSED
+delay(0),Chrome 126.0.0.0,,,03-07-2024 21:56:12,03-07-2024 21:56:12,0.003s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,03-07-2024 21:56:12,03-07-2024 21:56:12,0.331s,PASSED
+"click(findTestObject(""Login/Button_Login""))",Chrome 126.0.0.0,,,03-07-2024 21:56:12,03-07-2024 21:56:12,0.313s,PASSED
+"verifyElementText(findTestObject(""Login/VerifyRequiredUsername""), Verify)",Chrome 126.0.0.0,,,03-07-2024 21:56:12,03-07-2024 21:56:13,0.502s,PASSED
+"verifyElementText(findTestObject(""Login/VerifyRequiredPassword""), Verify)",Chrome 126.0.0.0,,,03-07-2024 21:56:13,03-07-2024 21:56:13,0.275s,PASSED
+delay(2),Chrome 126.0.0.0,,,03-07-2024 21:56:13,03-07-2024 21:56:15,2.006s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,03-07-2024 21:56:15,03-07-2024 21:56:15,0.478s,PASSED
